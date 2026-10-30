@@ -1,0 +1,10 @@
+# Global owners
+* @mekou1
+
+# Specs & architecture
+/specs/ @mekou1
+/docs/architecture/ @mekou1
+
+# CI/CD & governance
+/.github/workflows/ @mekou1
+/.github/CODEOWNERS @mekou1
