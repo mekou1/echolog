@@ -1,0 +1,30 @@
+name: Feature Request
+description: Request a new feature
+title: "[FEAT] "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: "## Feature Request (Spec Kit)"
+  - type: input
+    id: spec_id
+    attributes:
+      label: Spec ID
+      placeholder: "SPEC-XXX"
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements (EARS format)
+      placeholder: |
+        ### REQ-XXX: Feature Name
+        - **Description**: ...
+        - **Acceptance Criteria**: ...
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria (AC-XXX)
+      placeholder: |
+        - AC-001: ...
+        - AC-002: ...
